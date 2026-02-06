@@ -1,0 +1,16 @@
+//complete components that was taught on 5/feb
+
+//props
+to send data from one component to other component 
+
+import './App.css';// from is not used because we are not exporting anything from App.css file, we are just importing the css file to apply styles to our components
+import footer from './component/footer'; // isme from use hus h kyuki header is a function and footer is a component
+<Footer/> // humesha file na naam capital letter se rkho
+
+//if react use npm start
+// if vite use npm run dev
+
+export default function Header(props) {
+  return (//here we are using props to pass data from parent component to child component, we can use props to pass any type of data like string, number, array, object etc. and we can access that data in child component using props keyword
+  props is good practice to write elese we can use any other keyword we want
+  

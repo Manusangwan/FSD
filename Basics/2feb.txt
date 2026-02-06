@@ -1,0 +1,114 @@
+//  2/feb/2026
+
+///****making and launching react web app****///
+
+react is the javascript library for frontend development.
+
+why we need react over html, css nd javascript?
+bcoz react allow us to create single page webpages 
+    
+    
+    //create react app folder
+npx create-react-app 2feb1(this is the app name or name we give to our project)
+  **project name can not have capital letter or space just use underscore
+
+
+   //change folder
+   cd (2feb1)app_folder_name
+
+//to launch or open the app on the folder
+   npm start
+
+
+// node modules
+ these are dependendies that are required to run our react app.
+
+ //.gitignore
+do not push these on git automatically 
+confidencial data like api keys, node modules, etc.
+
+
+//index.html
+home page of our project
+why required???
+first need to open browser.
+
+
+//package.json 
+if need to add more dependendies then needed to be added here
+
+
+//flow of work
+
+index.html render first nd open browser calls index.js 
+then index.js calls app.js(root file) 
+
+//DOM (Document Object Model)
+
+DOM is how JavaScript talks to HTML.
+HTML file → static text
+Browser → converts HTML into a tree structure
+This tree = DOM
+
+JavaScript does NOT directly modify HTML files.
+It modifies the DOM in memory, and the browser updates the screen.
+
+//App.js
+ jsx allow to create pages using html tags using the features of javascript 
+App.js is the root React component that structures the application 
+by combining routes, layouts, and child components.
+
+**jo bhi app.js me hogya vhi dikhega browser web page pr 
+
+**in app.js we have function app() in which we can't return more than onw value or obbject or statement
+to return more than one we need to enclose it into <div></div> tags
+
+//components in react
+1st - functional component
+2nd - class component
+
+export and import everywhere where we required
+ export krne k liye we use export default App;
+ or we can use export default we function while defining it.
+
+
+// terminal command for push into git
+    (git init)
+    (git add .)---> to add all files in local storage
+    ** for specific file use file name at the place of . in above command
+    (git status)
+    
+    why ??-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
