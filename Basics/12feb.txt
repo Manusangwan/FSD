@@ -1,0 +1,2 @@
+//object passing using props
+//mounting

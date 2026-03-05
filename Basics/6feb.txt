@@ -12,5 +12,5 @@ import footer from './component/footer'; // isme from use hus h kyuki header is 
 
 export default function Header(props) {
   return (//here we are using props to pass data from parent component to child component, we can use props to pass any type of data like string, number, array, object etc. and we can access that data in child component using props keyword
-  props is good practice to write elese we can use any other keyword we want
+  props is good practice to write else we can use any other keyword we want
   
