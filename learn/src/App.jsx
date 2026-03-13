@@ -1,8 +1,9 @@
-
+import Card from "./components/Card"
 function App() {
+  const arr = [{name:"manu", age: 22},{name:"Tanu",age: 20}, {name:"Shiva", age:18}]
   return (
-    <div>
-      <h1> hello </h1>
+    <div className="app">
+      {arr.map((ele)=> <Card/>)}
     </div>
   )
 }
