@@ -1,0 +1,17 @@
+@import "tailwindcss";
+.header{
+  padding: 2%;
+  text-align: center;
+  background-color: aquamarine;
+  text-shadow: 0cqmax;
+  margin: auto;
+  text-decoration-thickness: 30%;
+}
+.search{
+  text-align: center;
+  padding: auto;
+  background-color: azure;
+  border-radius: 5%;
+  border: 20%;
+}
+
